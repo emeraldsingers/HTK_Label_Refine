@@ -7,7 +7,7 @@ from pathlib import Path
 
 PHONEME_GROUPS = {
     'sibilants': ['s', 'z', 'sh', 'zh', 'ts', 'dz', 'ch', 'dj', 'x'],
-    'vowels': ['a', 'e', 'i', 'o', 'u', "N"],
+    'vowels': ['a', 'e', 'i', 'o', 'u'],
     'consonants': ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'w'],
     'liquids': ['l', 'r'],
     'nasals': ['m', 'n', 'ng'],
