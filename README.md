@@ -37,7 +37,7 @@ No additional dependencies required - uses only Python standard library.
 
 ```bash
 git clone https://github.com/emeraldsingers/HTK_Label_Refine
-cd htk-label-refiner
+cd HTK_Laber_Refie
 ```
 
 ## Usage
@@ -46,13 +46,13 @@ cd htk-label-refiner
 
 ```bash
 # Basic usage - process all .lab files in a directory
-python htk_refiner.py /path/to/lab/files
+python htk_label_refiner.py /path/to/lab/files
 
 # Specify output directory
-python htk_refiner.py /path/to/lab/files -o /path/to/output
+python htk_label_refiner.py /path/to/lab/files -o /path/to/output
 
 # Adjust maximum gap threshold (in seconds)
-python htk_refiner.py /path/to/lab/files -g 0.05
+python htk_label_refiner.py /path/to/lab/files -g 0.05
 ```
 
 ### Parameters
@@ -64,7 +64,7 @@ python htk_refiner.py /path/to/lab/files -g 0.05
 ### Programmatic Usage
 
 ```python
-from htk_refiner import process_lab_files
+from htk_label_refiner import process_lab_files
 
 # Process files with default settings
 process_lab_files("/path/to/lab/files")
