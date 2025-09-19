@@ -24,7 +24,8 @@ The script categorizes phonemes into groups for intelligent merging:
 - **Nasals**: `m`, `n`, `ng`
 - **Stops**: `p`, `b`, `t`, `d`, `k`, `g`
 - **Fricatives**: `f`, `v`, `th`, `dh`, `s`, `z`, `sh`, `zh`, `h`
-- **Silence**: `pau`, `sil`, `SP`, `o` (all converted to `SP`)
+- **Silence**: `pau`, `sil`, `SP`, (all converted to `SP`)
+- **Special**: `vf`, `cl`
 
 ### Two-Pass Processing
 1. **First pass**: Merges phonemes within the same group that have small gaps
