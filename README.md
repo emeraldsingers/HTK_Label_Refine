@@ -17,7 +17,7 @@ When using WFL ASR (Waffle) to generate phoneme alignments, the resulting `.lab`
 
 ### Phoneme Grouping
 The script categorizes phonemes into groups for intelligent merging:
-- **Vowels**: `a`, `e`, `i`, `o`, `u`, `N`
+- **Vowels**: `a`, `e`, `i`, `o`, `u`
 - **Consonants**: `b`, `c`, `d`, `f`, `g`, `h`, `j`, `k`, `l`, `m`, `n`, `p`, `q`, `r`, `t`, `v`, `w`
 - **Sibilants**: `s`, `z`, `sh`, `zh`, `ts`, `dz`, `ch`, `dj`, `x`
 - **Liquids**: `l`, `r`
